@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo da Velha</title>
     <link rel="stylesheet" href="estilo.css">
+<link rel="shortcut icon" href="jogodavelha.ico" type="image/x-icon">
 </head>
+
 <body>
     <main>
+        
         <div class="linha">
             <div id="casa01" class="casa" onclick="jogada(this);"></div>
             <div id="casa02" class="casa" onclick="jogada(this);"></div>
@@ -24,8 +28,18 @@
             <div id="casa08" class="casa" onclick="jogada(this);"></div>
             <div id="casa09" class="casa" onclick="jogada(this);"></div>
         </div>
+        <div id="placar">
+            <p>PLACAR</p>
+            <p>X: 0</p>
+            <p>O: 0</p>
+        </div>
+        <div>
+            <button onclick="iniciarJogo();">Próxima Jogada</button>
+        </div>
+        <div id="slider"></div>
     </main>
-    
+
     <script src="index.js"></script>
 </body>
+
 </html>
