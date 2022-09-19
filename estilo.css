@@ -4,7 +4,7 @@ main{
 }
 
 .casa{
-    border: 1px solid #F522D2;
+    border: 1px solid #e36bcf;
     width: 150px;
     height: 150px;
     font-size: 80px;
@@ -19,5 +19,14 @@ main{
 body{
     display: flex;
     justify-content: center;
-    background-color: #F561E6;
+    background-color: #fea6f5;
+}
+h1{
+    text-align: center;
+}
+#placar{
+    text-align: center;
+}
+#botao{
+    text-align: center;
 }

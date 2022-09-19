@@ -95,7 +95,7 @@ function iniciarJogo() {
     casa[8].innerHTML = "";
 
 
-    let quem_inicia = prompt("Voce quer começar com X ou O?").toUpperCase;
+    let quem_inicia = prompt("Voce quer começar com X ou O?").toUpperCase();
 jogador = quem_inicia; 
 
 }
